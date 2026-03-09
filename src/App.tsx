@@ -1,6 +1,7 @@
 import Navbar from './components/layout/Navbar'
 import Hero from './components/sections/Hero'
 import FloatingActions from './components/ui/FloatingActions'
+import Services from './components/sections/Services'
 
 const App = () => {
   return (
@@ -9,8 +10,10 @@ const App = () => {
       <main className="pt-[126px]">
         <Hero />
         <section className="h-[132px] bg-[#dfe4e0]" />
+        <Services />
       </main>
       <FloatingActions />
+      
     </div>
   )
 }
