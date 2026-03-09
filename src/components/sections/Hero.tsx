@@ -43,10 +43,10 @@ const Hero = () => {
           <h1 className="max-w-[530px] font-extrabold text-[50px] uppercase leading-[0.95] tracking-[-0.015em] text-dark-green sm:text-[64px] lg:text-[60px]">
             <span className="block">Effortless</span>
             <span className="mt-2 block">Laundry Care,</span>
-            <span className="mt-2 w-[300px] h-[80px]  inline-block rounded-[8px]  bg-primary-yellow px-3.5 pb-2 pt-1.5">
-              <span className="relative block h-[1.02em] min-w-[220px] overflow-hidden">
+            <span className="mt-2 -ml-4 inline-block rounded-[12px] bg-primary-yellow px-4 pb-2 pt-1.5 sm:-ml-4">
+              <span className="relative block h-[1.02em] min-w-[260px] overflow-hidden">
                 <span
-                  className={` absolute inset-0 normal-case transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+                  className={`absolute inset-0 uppercase transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
                     showAnytime
                       ? '-translate-y-[115%] opacity-0'
                       : 'translate-y-0 opacity-100'
@@ -55,7 +55,7 @@ const Hero = () => {
                   Anyplace
                 </span>
                 <span
-                  className={`absolute inset-0 normal-case transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+                  className={`absolute inset-0 uppercase transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
                     showAnytime
                       ? 'translate-y-0 opacity-100'
                       : 'translate-y-[115%] opacity-0'
